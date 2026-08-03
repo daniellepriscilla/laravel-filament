@@ -10,6 +10,7 @@ use App\Models\User;
 class Transaction extends Model
 {
     protected $fillable = [
+        'name',
         'user_id',
         'date',
         'total',
